@@ -59,7 +59,7 @@
             // 
             txtDesc.Location = new Point(315, 54);
             txtDesc.Name = "txtDesc";
-            txtDesc.Size = new Size(150, 31);
+            txtDesc.Size = new Size(179, 31);
             txtDesc.TabIndex = 2;
             txtDesc.TextChanged += textBox1_TextChanged;
             // 
@@ -67,15 +67,16 @@
             // 
             txtAmount.Location = new Point(315, 112);
             txtAmount.Name = "txtAmount";
-            txtAmount.Size = new Size(150, 31);
+            txtAmount.Size = new Size(179, 31);
             txtAmount.TabIndex = 3;
             // 
             // Ａｄｄｂｔｎ
             // 
-            Ａｄｄｂｔｎ.Location = new Point(203, 185);
+            Ａｄｄｂｔｎ.Location = new Point(156, 185);
             Ａｄｄｂｔｎ.Name = "Ａｄｄｂｔｎ";
-            Ａｄｄｂｔｎ.Size = new Size(112, 34);
+            Ａｄｄｂｔｎ.Size = new Size(159, 37);
             Ａｄｄｂｔｎ.TabIndex = 4;
+            Ａｄｄｂｔｎ.Text = "Add expense";
             Ａｄｄｂｔｎ.UseVisualStyleBackColor = true;
             Ａｄｄｂｔｎ.Click += btnAdd_Click;
             // 
@@ -83,9 +84,9 @@
             // 
             lstExpenses.FormattingEnabled = true;
             lstExpenses.ItemHeight = 25;
-            lstExpenses.Location = new Point(359, 185);
+            lstExpenses.Location = new Point(332, 185);
             lstExpenses.Name = "lstExpenses";
-            lstExpenses.Size = new Size(180, 129);
+            lstExpenses.Size = new Size(361, 129);
             lstExpenses.TabIndex = 5;
             // 
             // Form1
